@@ -37,8 +37,8 @@ if (*a == *b)
 //Desreferencia a (dado) y devuelve su primera letra
 char getPrimeraLetra(string* a)
 {
-
-   return 0;
+    char obtener = a->at(0);
+    return obtener;
 
 }
 
